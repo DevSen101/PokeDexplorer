@@ -1,16 +1,68 @@
-#pokedex-heading{
-    margin: 0 auto;
-    letter-spacing: 5px;
-    font-weight: bold;
-    text-decoration: underline;
+/* Heading */
+#pokedex-heading {
+  margin: 16px auto;
+  letter-spacing: 5px;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 2.5rem;
+  text-align: center;
 }
 
-.outer-pokedex{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* Main container */
+.outer-pokedex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
-a:visited{
-    color: black;
+/* Link styling */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  color: black;
+}
+
+/* ======================
+   Responsive adjustments
+   ====================== */
+
+/* Tablets */
+@media (max-width: 900px) {
+  #pokedex-heading {
+    font-size: 2rem;
+    letter-spacing: 3px;
+  }
+
+  .outer-pokedex {
+    padding: 12px;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 600px) {
+  #pokedex-heading {
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+    margin: 12px auto;
+  }
+
+  .outer-pokedex {
+    padding: 10px;
+    width: 100%;
+  }
+}
+
+/* Very small phones */
+@media (max-width: 380px) {
+  #pokedex-heading {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+  }
 }

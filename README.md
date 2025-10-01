@@ -1,16 +1,57 @@
-# React + Vite
+# Pokemon Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Pokemon Explorer** is a modern web app built with **React (Vite)** that lets you explore Pokémon, view their details, and search them easily. It leverages **React Hooks** (`useState`, `useEffect`) and **Context API** for state management.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## React Compiler
+- Browse a list of Pokémon fetched from the [PokéAPI](https://pokeapi.co/).  
+- Search Pokémon by name.  
+- View detailed info for each Pokémon (type, height, weight, abilities, etc.).  
+- Built using React Hooks (`useState`, `useEffect`) and **Context API** for global state management.  
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React + Vite  
+- **State Management:** Context API, Hooks (`useState`, `useEffect`)  
+- **API:** [PokéAPI](https://pokeapi.co/)  
+- **Styling:** CSS
+
+---
+
+## 🎨 Screenshots
+
+**Home Page**  
+<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/bba74a85-df4c-4c65-b3e5-8ec444026a39" />
+  
+
+**Pokemon Details Page**  
+1. <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/2a04c3ad-c240-42d6-a205-04608b189dc0" />
+2.<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/37512f83-2a15-43e4-ac46-d34c2685b5d4" />
+3.<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/1c9bfbad-92ef-4b52-8318-623b5a582641" />
+
+---
+
+## 🚀 Live Demo
+
+Check it out here: [Pokemon Explorer Live](https://devpokemonexplorer.netlify.app/)  
+
+---
+
+## Usage
+
+1.Use the search bar to find any Pokémon by name.<br>
+2.Click on a Pokémon card to view detailed stats and info.
+
+## Contribution
+
+
+Contributions are welcome! Please open an issue or submit a pull request for suggestions, bug fixes, or features.
+
+---
+
+*Created with ❤️ by DevSen*
+
